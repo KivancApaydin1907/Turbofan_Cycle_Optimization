@@ -2,6 +2,10 @@
 
 This project performs a parametric design optimization for a **High-Bypass Turbofan Engine**.
 
+<p align="center">
+  <img width="555" height="388" alt="TurbofanStations" src="https://github.com/user-attachments/assets/cf31c7c5-3e87-457f-aa61-16a1584d9fc6" />
+</p>
+
 Using MATLAB's constrained nonlinear optimization solver (`fmincon`), the script determines the optimal thermodynamic cycle parameters to minimize **Specific Fuel Consumption (SFC)** while satisfying a strict Thrust requirement.
 
 ## 🎯 Project Objective
