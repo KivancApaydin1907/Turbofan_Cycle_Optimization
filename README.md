@@ -47,3 +47,13 @@ The optimization converged to the following design point:
 
 **Kivanc Apaydin**
 *Aeronautical Engineering Student Project*
+
+## 📝 Note on Optimization Results (BPR)
+
+You might observe that the optimized Bypass Ratio ($\approx 2.4$) appears lower than typical "High-Bypass" engines.
+
+This is a physical result of the specific constraints defined in the problem:
+* **High Thrust Requirement:** 100 kN at 12,000 m altitude.
+* **Limited Mass Flow:** Upper bound of 600 kg/s.
+
+To satisfy the high thrust demand with limited air mass flow at high altitude, the optimizer correctly converges to a **High Specific Thrust** cycle, which inherently requires a lower Bypass Ratio. Increasing the mass flow limit or reducing the thrust constraint would yield higher BPR values.
